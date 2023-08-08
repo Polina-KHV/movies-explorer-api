@@ -25,8 +25,8 @@ app.use(cors({
     'https://localhost:3001',
     'http://158.160.1.215',
     'https://158.160.1.215',
-    'http://api.daechwita.nomoredomains.rocks',
-    'https://api.daechwita.nomoredomains.rocks',
+    'http://daechwita.nomoredomains.rocks',
+    'https://daechwita.nomoredomains.rocks',
 
   ],
   allowedHeaders: ['Content-Type', 'Authorization'],
