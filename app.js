@@ -29,7 +29,7 @@ app.use(cors({
     'https://daechwita.nomoredomains.rocks',
 
   ],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+  allowedHeaders: ['Content-Type'],
   preflightContinue: false,
   credentials: true,
 }));

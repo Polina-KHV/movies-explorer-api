@@ -32,7 +32,9 @@ const logout = (req, res, next) => {
   User.findById(req.user._id)
     .orFail()
     .then((user) => {
-      res.clearCookie('jwt')
+      res.clearCookie('jwt', {
+        httpOnly: true,
+      })
         .send(user);
     })
     .catch((e) => {
