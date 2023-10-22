@@ -23,8 +23,8 @@ app.use(cors({
   origin: [
     'http://localhost:3001',
     'https://localhost:3001',
-    'http://158.160.1.215',
-    'https://158.160.1.215',
+    'http://158.160.78.106',
+    'https://158.160.78.106',
     'http://daechwita.nomoredomains.rocks',
     'https://daechwita.nomoredomains.rocks',
 
